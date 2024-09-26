@@ -4,7 +4,7 @@ monthly_salary = float(input("Enter your monthly salary: "))
 loan_amount = float(input("Enter your request loan amount: "))
 
 
-# Check if eligible for a loan
+# Check if not eligible for a loan
 if monthly_salary < 30000:
     print("You are not eligible for a loan request. Reason: Low salary")
     print("You need to have at least 30,000 monthly salary.")
